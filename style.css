@@ -165,13 +165,13 @@
 
             The advantage of using a selector like this is that it allows for precise targeting within a specific part of your webpage, making it easier to style only the elements you intend without affecting other elements elsewhere on the page. */
             #sidebar ul li a:hover {
-                background-color: #cc9;
+                background: rgb(204, 153, 198);
                 color: #fff;
             }
 
             #sidebar ul li a::before {
                 content: "\00BB";
-                color: #996;
+                color: rgb(150, 102, 153);
             }
             /* The CSS selector #content ul li::before targets the ::before pseudo-element of list items (li) inside an unordered list (ul) that is a child of an element with the ID content.
 
